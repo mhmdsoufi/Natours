@@ -84,7 +84,6 @@ You can fork the app or you can git-clone the app into your local machine. Once 
 dependencies by running
 
 - npm i
-  \*Set your env variables
 - npm run watch:js
 - npm run build:js
 - npm run dev (for development)
