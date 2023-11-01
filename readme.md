@@ -84,13 +84,10 @@ You can fork the app or you can git-clone the app into your local machine. Once 
 dependencies by running
 
 - npm i
-  Set your env variables
+  \*Set your env variables
 - npm run watch:js
 - npm run build:js
 - npm run dev (for development)
 - npm run start:prod (for production)
 - npm run debug (for debug)
 - npm start
-  Setting up ESLint and Prettier in VS Code 👇🏻
-- npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node
-  eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
