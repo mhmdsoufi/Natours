@@ -9,7 +9,7 @@ process.on('uncaughtException', (err) => {
 });
 //
 
-import app from './app ';
+import app from './app.js ';
 
 dotenv.config({ path: './config.env' });
 
