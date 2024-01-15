@@ -5,9 +5,9 @@
   "description": "node , express , mangoDB",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
-    "start:prod": "NODE_ENV=production nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
-    "debug": "ndb server.js",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "start:prod": "NODE_ENV=production nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "debug": "ndb index.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
